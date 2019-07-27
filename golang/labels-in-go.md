@@ -159,3 +159,5 @@ End:
         fmt.Println(v)
     }
     ```
+## Reference
+1. [Labels in Go - Michał Łowicki - medium-Aug 15, 2016](https://medium.com/golangspec/labels-in-go-4ffd81932339)
