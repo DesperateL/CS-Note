@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -55,14 +56,20 @@ func main() {
 	// 		fmt.Println("222")
 	// 	}
 	// }
-	i := 0
-Start:
-	fmt.Println(i)
-	if i > 2 {
-		goto End
-	} else {
-		i += 1
-		goto Start
-	}
-End:
+	//i := 0
+	// Start:
+	// 	fmt.Println(i)
+	// 	if i > 2 {
+	// 		goto End
+	// 	} else {
+	// 		i += 1
+	// 		goto Start
+	// 	}
+	// End:
+	s := "172.161.32.2\n\r"
+	fmt.Print(s)
+	s1 := strings.Replace(s, "\n", "", -1)
+	s1 = strings.Replace(s1, "\r", "", -1)
+
+	fmt.Print(s1)
 }
