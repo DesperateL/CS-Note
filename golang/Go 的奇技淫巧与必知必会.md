@@ -160,6 +160,52 @@ for v := range ch{
 
             fmt.Println("After:", runtime.NumGoroutine())
         }
+4. limiting concurrency in Go
+    ```golang
+        //最大5个协程
+        concurrency := 5
+        sem := make(chan bool, concurrency)
+        urls := []string{"url1", "url2"}
+        for _, url := range urls {
+            sem <- true
+            go func(url) {
+                defer func() { <-sem }()
+                // get the url
+            }(url)
+        }
+        for i := 0; i < cap(sem); i++ {
+            sem <- true
+        }
+    ```
+5. timeout
+    ```golang
+    func main() {
+
+        c1 := make(chan string, 1)
+        go func() {
+            time.Sleep(2 * time.Second)
+            c1 <- "result 1"
+        }()
+
+        select {
+        case res := <-c1:
+            fmt.Println(res)
+        case <-time.After(1 * time.Second):
+            fmt.Println("timeout 1")
+        }
+        c2 := make(chan string, 1)
+        go func() {
+            time.Sleep(2 * time.Second)
+            c2 <- "result 2"
+        }()
+        select {
+        case res := <-c2:
+            fmt.Println(res)
+        case <-time.After(3 * time.Second):
+            fmt.Println("timeout 2")
+        }
+    }
+    ```
 ---
 ## 4. sync 包的常见用法
 1. Mutex
