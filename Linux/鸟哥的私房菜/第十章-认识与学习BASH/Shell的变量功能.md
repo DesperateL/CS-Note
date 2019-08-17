@@ -116,6 +116,11 @@ Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.h3ChrJt9hs/Render
 HOME=/Users/gopher
 ...(省略)
 ```
+Q: 为啥我配的环境变量在另一个终端就没用了？为啥我重启了之后也没有用的？
+A：需要把相应的变量声明写入.bashrc（你用的是zsh就写到.zshrc中） ...等开机启动的文件中，然后`source .bashrc`或者`. .bashrc`运行这个脚本来使这些配置生效。
+
+Q:`./xxx.sh bash xxx.sh sh xxx.sh` 与`source xxx.sh`或者`. xxx.sh`有什么区别？
+A：注意绝对/相对路径，bash或者sh等运行脚本，是会启动一个子线程去执行，脚本设置的变量不会传回到父进程中。`source | .`启动的脚本是直接在父进程中运行。
 ## 2. 变量键盘读取、数组与宣告： read, array, declare
 ### 1. read
 read [-pt] variable

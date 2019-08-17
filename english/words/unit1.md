@@ -9,3 +9,5 @@
 |delimiter character||分隔符||
 |bottleneck link ||瓶颈链路||
 |preliminary support||初步支持||
+|persist||持久化，保持||
+|fallback||倒退||
