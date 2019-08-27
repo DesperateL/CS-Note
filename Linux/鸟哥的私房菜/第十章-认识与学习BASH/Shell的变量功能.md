@@ -162,7 +162,22 @@ ulimit [-SHacdfltu] [配额]
 - -l  ：可用于锁定 (lock) 的内存量
 - -t  ：可使用的最大 CPU 时间 (单位为秒)
 - -u  ：单一用户可以使用的最大程序(process)数量。
-## 4. 变量内容的删除、取代与替换
+## 4. 变量内容的累加、删除、取代与替换
+累加
+```bash
+范例三：我要在 PATH 这个变量当中『累加』:/home/dmtsai/bin 这个目录
+[root@www ~]# PATH=$PATH:/home/dmtsai/bin
+[root@www ~]# PATH="$PATH":/home/dmtsai/bin
+[root@www ~]# PATH=${PATH}:/home/dmtsai/bin
+# 上面这三种格式在 PATH 里头的配置都是 OK 的！但是底下的例子就不见得啰！
+
+范例四：承范例三，我要将 name 的内容多出 "yes" 呢？
+[root@www ~]# name=$nameyes  
+# 知道了吧？如果没有双引号，那么变量成了啥？name 的内容是 $nameyes 这个变量！
+# 呵呵！我们可没有配置过 nameyes 这个变量吶！所以，应该是底下这样才对！
+[root@www ~]# name="$name"yes
+[root@www ~]# name=${name}yes  <==以此例较佳！
+```
 
 
 

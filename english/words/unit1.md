@@ -16,3 +16,6 @@
 |protocol version negotiation ||协议版本协商|
 |uptime||（计算机等）正常运行时间|
 |runtime metrics||运行时指标|
+|chunk| [tʃʌŋk]| 文件块||
+|choke|[tʃoʊk]|vt&vi&n 阻塞、窒息||
+|instant messenger||即时通讯||

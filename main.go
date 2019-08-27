@@ -66,10 +66,25 @@ func main() {
 	// 		goto Start
 	// 	}
 	// End:
-	s := "172.161.32.2\n\r"
-	fmt.Print(s)
-	s1 := strings.Replace(s, "\n", "", -1)
-	s1 = strings.Replace(s1, "\r", "", -1)
+	// s := "172.161.32.2\n\r"
+	// fmt.Print(s)
+	// s1 := strings.Replace(s, "\n", "", -1)
+	// s1 = strings.Replace(s1, "\r", "", -1)
 
-	fmt.Print(s1)
+	// fmt.Print(s1)
+	ss := "hello leung"
+	r := strings.NewReader(ss)
+
+	by := make([]byte, r.Len())
+	if n, err := r.Read(by); err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("has read:", n)
+	}
+	if n, err := r.Read(by); err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("has read:", n)
+	}
+
 }
