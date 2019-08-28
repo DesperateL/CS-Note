@@ -46,6 +46,8 @@ alias ls='ls --color=tty'
 alias mv='mv -i'
 alias rm='rm -i'
 alias which='alias | /usr/bin/which --tty-only --show-dot --show-tilde'
+[root@www tmp]# \rm -r /tmp/etc
+# 在命令前加上反斜线，可以忽略掉 alias 的指定选项喔！
 ```
 ## **history 历史命令**
 ```bash
