@@ -19,3 +19,4 @@
 |chunk| [tʃʌŋk]| 文件块||
 |choke|[tʃoʊk]|vt&vi&n 阻塞、窒息||
 |instant messenger||即时通讯||
+|drastically |[ˈdræstɪklɪ]|adv.急剧地，激烈地，大大地||
