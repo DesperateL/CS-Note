@@ -20,3 +20,16 @@
 |choke|[tʃoʊk]|vt&vi&n 阻塞、窒息||
 |instant messenger||即时通讯||
 |drastically |[ˈdræstɪklɪ]|adv.急剧地，激烈地，大大地||
+|direct invocation|||直接调用||
+|deprecated| [ˈdeprikeitid] |不推荐的；不支持的||
+|decline|[dɪˈklaɪn]|n&vi.下降；衰退；vt.谢绝，婉拒||
+|liberal|[ˈlɪbərəl]|n.自由主义者；adj.开明的，慷慨的；自由的||
+|port | [pɔrt] |移植||
+|patch|[pætʃ]|补丁||
+|perturb|[pərˈtɜrb]|vt.烦恼，不安||
+|reigning| ['reɪnɪŋ]|adj.在位的，统治的||
+| donate||vi.表示，代表||
+|instruction||n.指令||
+|Reiterate|[riːɪtəreɪt ]|vi.重申，复述||
+|ubiquity| [juˈbɪkwɪti] |n.到处存在，（同时的）普遍存在||
+|parenthesis|[pəˈrɛnθɪsɪs] |n. 圆括号；插入语||
