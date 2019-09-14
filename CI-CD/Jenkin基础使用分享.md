@@ -7,7 +7,8 @@
 
 pipeline syntax  流水线语法生成器，写流水线时尽量用这个去写，（和可以➕JIRA comment or Artifactory comment）
 
-replay  重跑，编辑调试pipeline代码，直接要验证。（不用git 提交，可以直接用replay）
+1. replay  重跑，编辑调试pipeline代码，直接要验证。（不用git 提交，可以直接用replay）,只要有流水线脚本的项目，就可以用replay
+2. 非流水线项目，可以直接使用
 
 JOB_NAME 
          
