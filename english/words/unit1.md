@@ -33,3 +33,4 @@
 |Reiterate|[riːɪtəreɪt ]|vi.重申，复述||
 |ubiquity| [juˈbɪkwɪti] |n.到处存在，（同时的）普遍存在||
 |parenthesis|[pəˈrɛnθɪsɪs] |n. 圆括号；插入语||
+|promptly|[ˈprɑmptli] |adv.及时的||
