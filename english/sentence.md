@@ -66,3 +66,21 @@ A 紧跟在B后面
 按照什么的命令
 34. to conceive of ...
 想象，设想…；
+35. the diagonal elements
+对角线元素
+36. pointer arithmetic 
+指针运算
+37. with （all due） respect to ..., ...
+（尽管）怀着尊敬，（但是）
+38. be unheard of
+前所未闻的
+39. computer manufacturer 
+计算机厂商
+40. Backwards compatibility 
+向后兼容：windows10系统能兼容运行Windows 3.1开发的程序 ，win10具有向后兼容性
+41. Forward compatibility
+向前兼容：Windows 3.1能兼容运行Windows 10开发的程序 ，Windows 3.1具有向前兼容性
+42. place restriction on sth
+对sth做了限制。
+43. data alignment
+数据对齐
