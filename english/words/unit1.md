@@ -35,3 +35,12 @@
 |parenthesis|[pəˈrɛnθɪsɪs] |n. 圆括号；插入语||
 |promptly|[ˈprɑmptli] |adv.及时的||
 |complement number|||补码||
+|ephemeral| [ɪˈfɛmərəl] |短暂的，临时的|||
+|sentinel| [ˈsɛntənəl]|哨兵，岗哨；守卫；放哨|
+|imperative|[ɪmˈpɛrətɪv] |必要的，不可避免的；必要的事； 命令； 规则；|
+|stale|[stel]| 陈腐的； 不新鲜的；变陈旧；|
+|de-facto| | 事实上的；||
+|seamless|[ˈsimlɪs]| 无缝的； 无漏洞的；||
+|canonical| [kəˈnɑnɪkl] |权威的；规范的||
+|immutable|/ɪˈmjuːtəbəl/| 不可变的；一成不变的||
+|error-prone| |容易出错||

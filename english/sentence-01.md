@@ -38,8 +38,8 @@
 商和余数
 20. Observe that body-statement is executed at least once.
 可以看到，body-statement至少执行一次
-21. xxx, which we refer to as xxx2
-我们把xxx称为xxx2
+21. xxx, which we refer to as yyy
+我们把xxx称为yyy
 22. Determining that the test condition will always hold
 认为测试条件总是满足
 23. Preserving the required functionality
