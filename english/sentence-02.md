@@ -9,3 +9,11 @@
 
 4. sth sold like hotcakes.
 很畅销
+
+5. imediately 
+
+6. have fine-grained control over
+对。。。有细粒度控制
+
+7. provides a "one stop shopping" solution for sth
+提供一个一站式解决方案

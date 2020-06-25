@@ -44,3 +44,5 @@
 |canonical| [kəˈnɑnɪkl] |权威的；规范的||
 |immutable|/ɪˈmjuːtəbəl/| 不可变的；一成不变的||
 |error-prone| |容易出错||
+|matrix|  [ˈmetrɪks]| 矩阵；模型||
+|metrics| ['metrɪks]| 指标，量度|
